@@ -1,10 +1,10 @@
-# 马斯克 xAI 网页版正式上线，国内用户可畅享！毫无“AI味儿”的智能体验——附详细使用指南
+# xAI 网页版正式上线，国内用户可畅享！毫无“AI味儿”的智能体验——附详细使用指南
 
 > 发布时间：2025-03-06
 
 ---
 
-## 马斯克 xAI Grok 网页版简介
+## xAI Grok 网页版简介
 
 就在上周，由埃隆·马斯克创立的 xAI 公司正式推出了备受瞩目的 Grok 3 模型，这款被誉为“地表最强”的智能AI一经亮相，便迅速席卷网络。经过实际测试，其表现确实令人惊叹。相较于其他AI，Grok 3 最大的亮点在于其回答毫无刻板的“AI味儿”，展现出惊艳的自然与智慧。
 
@@ -23,7 +23,7 @@ Grok 的回答不仅没有AI味儿，回答问题的总和能媲美 GPT、DeepSe
 |---------------------------|-----------------------|----------|------------|--------|---------------------|
 | [chat.yixiaai.com](https://chat.yixiaai.com) | Grok 3, GPT-4, GPT-o1, DeepSeek, Claude 3.7 Sonnet | 是       | 无需注册   | ★★★★★  | Grok网页版与GPT中文优化 |
 | [chat.lify.vip](https://chat.lify.vip)       | Grok 3, GPT-4, Claude 3.7 Sonnet, DeepSeek, Midjourney   | 是       | 无需注册   | ★★★★★  | 媲美官网的流畅体验     |
-| [lanjing.ai](https://lanjing.ai)             | GPT-4, GPT-4o                | 是       | 无需注册   | ★★★★☆  | 提供新手入门教程       |
+| [lanjing.ai](https://lanjing.ai)             | GPT-4, GPT-4o、Claude 3.7 Sonnet               | 是       | 无需注册   | ★★★★☆  | 提供新手入门教程       |
 | [cgn.lify.vip](https://cgn.lify.vip)         | GPT-4, GPT-3.5              | 是       | 无需注册   | ★★★★☆  | 稳定可靠的备用选项     |
 
 ---
