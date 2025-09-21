@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -8,15 +7,15 @@
     <meta name="keywords" content="xAI, 马斯克, Grok, 国内版, Grok 3, AI模型, 埃隆·马斯克, 人工智能, 智能助手, GPT替代品">
     <meta name="author" content="AI技术评测团队">
     <meta name="robots" content="index, follow">
-    <meta name="publish_date" content="2025-05-19">
-    <meta property="article:published_time" content="2025-03-06T00:00:00+08:00">
+    <meta name="publish_date" content="2025-09-21">
+    <meta property="article:published_time" content="2025-09-21T00:00:00+08:00">
     <meta property="og:title" content="马斯克xAI Grok网页版正式上线 - 国内用户可畅享的智能体验">
     <meta property="og:description" content="马斯克xAI Grok网页版正式上线，国内用户无需VPN畅享！了解Grok 3模型的特点及使用指南。">
     <meta property="og:image" content="https://chat.yixiaai.com/images/grok-preview.jpg">
-    <meta property="og:url" content="https://chat.yixiaai.com">
+    <meta property="og:url" content="https://xsimplechat.com">
     <meta property="og:type" content="article">
     <title>马斯克 xAI Grok网页版正式上线，国内用户可畅享！毫无"AI味儿"的智能体验 | 详细使用指南</title>
-    <link rel="canonical" href="https://chat.yixiaai.com/blog/grok-guide" />
+    <link rel="canonical" href="https://xsimplechat.com" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -266,7 +265,7 @@
             <h1>马斯克 xAI Grok 网页版正式上线，国内用户可畅享！</h1>
             <p>毫无"AI味儿"的智能体验——附详细使用教程及使用入口</p>
             <div class="publish-date">
-                <i class="far fa-calendar-alt"></i> 发布时间：2025年5月19日
+                <i class="far fa-calendar-alt"></i> 发布时间：<span id="publishDate"></span>
             </div>
         </div>
     </header>
@@ -310,7 +309,7 @@
                         <td>Grok网页版与GPT中文优化</td>
                     </tr>
                     <tr>
-                        <td><a href="https://chat.lanjing.pro" target="_blank">chat.lanjing.pro</a></td>
+                        <td><a href="https://ai.lanjingai.org" target="_blank">ai.lanjingai.org</a></td>
                         <td>Grok 3, GPT-4, Claude 3.7 Sonnet, DeepSeek, Midjourney</td>
                         <td>是</td>
                         <td>无需注册</td>
@@ -419,6 +418,18 @@
                     behavior: 'smooth'
                 });
             });
+        });
+
+        // 动态设置发布日期为当前日期
+        document.addEventListener('DOMContentLoaded', function() {
+            const dateElement = document.getElementById('publishDate');
+            if (dateElement) {
+                const now = new Date();
+                const year = now.getFullYear();
+                const month = String(now.getMonth() + 1).padStart(2, '0');
+                const day = String(now.getDate()).padStart(2, '0');
+                dateElement.textContent = `${year}年${month}月${day}日`;
+            }
         });
     </script>
 </body>
